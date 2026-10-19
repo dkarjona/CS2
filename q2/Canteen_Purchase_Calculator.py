@@ -7,9 +7,9 @@ def calculate_change(payment, total):
     return payment - total
 
 
-price = float(input("Enter item price: "))
-quantity = int(input("Enter quantity: "))
-payment = float(input("Enter amount paid: "))
+price = float(input("Enter the item's price: "))
+quantity = int(input("Enter the amount of the item taken: "))
+payment = float(input("Enter the money paid: "))
 
 total = calculate_total(price, quantity)
 
@@ -20,7 +20,7 @@ print(f"Total Cost: PHP {total:.2f}")
 if result >= 0:
     print(f"Change: PHP {result:.2f}")
 else:
-    print(f"Additional amount needed: PHP {-result:.2f}
+    print(f"Not enough payment, by: PHP {-result:.2f}
     
 # DOCUMENTATION QUESTIONS:
 
