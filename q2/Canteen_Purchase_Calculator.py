@@ -29,14 +29,11 @@ else:
   calculate_change() subtracts the total cost from the payment.
 
 # 2. What is the difference between parameters and arguments?
-# Parameters are the variable names inside a function definition, such as price and quantity. Arguments are the actual values
-  passed when calling the function, such as 35 and 3.
+# Parameters are the variable names inside a function definition, such as price and quantity. Arguments are the actual values passed when calling the function, such as 35 and 3.
 
 # 3. Where is the returned total stored, and how is it reused?
 # The returned total is stored in the variable 'total'.
-# It is reused as an argument in calculate_change() and
-  displayed as the total cost.
+# It is reused as an argument in calculate_change() and displayed as the total cost.
 
 # 4. Why separate total calculation from change calculation?
-# Separating the functions makes the program easier to read,
-  test, debug, and maintain. Each function has one clear job.
+# Separating the functions makes the program easier to read,test, debug, and maintain. Each function has one clear job.
