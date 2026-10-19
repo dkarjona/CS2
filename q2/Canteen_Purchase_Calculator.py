@@ -26,7 +26,7 @@ else:
 
 # 1. What does each function do?
 # calculate_total() multiplies the price by the quantity.
-  calculate_change() subtracts the total cost from the payment.
+# calculate_change() subtracts the total cost from the payment.
 
 # 2. What is the difference between parameters and arguments?
 # Parameters are the variable names inside a function definition, such as price and quantity. Arguments are the actual values passed when calling the function, such as 35 and 3.
