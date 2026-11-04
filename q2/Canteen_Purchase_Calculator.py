@@ -20,7 +20,7 @@ print(f"Total Cost: PHP {total:.2f}")
 if result >= 0:
     print(f"Change: PHP {result:.2f}")
 else:
-    print(f"Not enough payment, by: PHP {-result:.2f}
+    print(f"Not enough payment, by: PHP {-result:.2f}")
     
 # DOCUMENTATION QUESTIONS:
 
